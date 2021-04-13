@@ -1,0 +1,19 @@
+{
+  "name": "leetcode-press",
+  "version": "0.0.1",
+  "description": "leetcode solution",
+  "main": "index.js",
+  "authors": {
+    "name": "chenzhe",
+    "email": "chenxxzhe@163.com"
+  },
+  "repository": "/leetcode-press",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
