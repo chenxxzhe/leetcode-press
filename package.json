@@ -1,7 +1,7 @@
 {
   "name": "leetcode-press",
   "version": "0.0.1",
-  "description": "leetcode solution",
+  "description": "solution and methods of solving problem",
   "main": "index.js",
   "authors": {
     "name": "chenzhe",
