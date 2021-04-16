@@ -67,10 +67,11 @@
 分步走
 1. 状态定义: dp[i] 表示什么意思
 2. 初始状态: dp[0] = ?
-3. 状态转移函数:  f(n) = g(f(n-1))
+3. 状态转移函数:  f(n) = g(f(n-1)); 考虑如何用 n-1 构建 n, 考虑 n-1 可以分成 p + q = n - 1 两部分来构建
 4. 解: dp 列表中的最值
 
-- [打家劫舍2](/solution/02.medium/213.house-robber-2.md)
+- [22. 括号生成](/solution/02.medium/22.generate-parentheses.md)
+- [213. 打家劫舍2](/solution/02.medium/213.house-robber-2.md)
 
 
 ---
@@ -80,6 +81,12 @@
 对于任意递归形式的问题, 可以从**结果**向最初递归, 也可以由**最初**向结果构建
 
 
+BFS
+将当前状态下,所有的下一步操作作为递归入口
+
+- [22. 括号生成](/solution/02.medium/22.generate-parentheses.md)
+
+DFS
 
 ## 分治
 
