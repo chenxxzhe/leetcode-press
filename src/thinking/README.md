@@ -74,7 +74,14 @@ DFS
 ### String
 
 - 优先考虑正则
-- 字符串读取的问题, 考虑用 状态机
+
+
+#### 状态机
+
+先画图, 再编码, 遍历字符串要多遍历一位用于判断是否已读完全部: `i <= s.length`
+
+- [字符串转换整数](/solution/02.medium/08.string-to-integer-atoi.md)
+
 
 ---
 ### Array
