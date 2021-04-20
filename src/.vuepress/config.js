@@ -33,7 +33,13 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav,
+    nav: [
+      ...nav,
+      {
+        text: 'Github',
+        link: 'https://github.com/chenxxzhe'
+      }
+    ],
     // nav: [
     //   {
     //     text: 'Solution',
