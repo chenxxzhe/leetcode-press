@@ -98,9 +98,6 @@ DFS
 #### 滑动窗口:
 
 - [最大无重复子串](/solution/03.hard/03.longest-substring-without-repeating-characters.md)
-#### 链表
-
-哨兵节点, 用于抛弃
 
 #### 动态规划
 
@@ -120,4 +117,12 @@ DFS
 
 ---
 
+
+### 链表
+
+无脑加哨兵节点(用于抛弃), 然后再考虑
+
+滑动窗口
+
+- [19. 删除链表的倒数第 N 个结点](/solution/02.medium/19.remove-nth-node-from-end-of-list.md)
 
