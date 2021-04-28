@@ -3,7 +3,7 @@ home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: leetcode solution
 actionText: Quick Start →
-actionLink: /solution/
+actionLink: /solution/simple/index.html
 # features:
 # - title: Feature 1 Title
 #   details: Feature 1 Description

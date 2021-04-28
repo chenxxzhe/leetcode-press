@@ -3,17 +3,17 @@ module.exports = [
     "text": "solution",
     "items": [
       {
-        "text": "01 Simple",
-        "link": "/solution/01.simple/"
+        "text": "Simple",
+        "link": "/solution/simple/"
       },
       {
-        "text": "02 Medium",
-        "link": "/solution/02.medium/"
+        "text": "Medium",
+        "link": "/solution/medium/"
       },
       {
-        "text": "03 Hard",
-        "link": "/solution/03.hard/"
-      }
+        "text": "Hard",
+        "link": "/solution/hard/"
+      },
     ]
   },
   {

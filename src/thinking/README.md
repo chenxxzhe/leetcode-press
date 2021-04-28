@@ -64,19 +64,17 @@ DFS
 
 ----
 
-## 各类型的解法
-
-### number
+## number
 
 - 改变数字排序, 尽量使用运算, 而不是变成字符串来处理; (是否提速有待考证...)
 
 ---
-### String
+## String
 
 - 优先考虑正则
 
 
-#### 状态机
+## 状态机
 
 先画图, 再编码, 遍历字符串要多遍历一位用于判断是否已读完全部: `i <= s.length`
 
@@ -84,7 +82,7 @@ DFS
 
 
 ---
-### Array
+## Array
 
 可排序数组
 
@@ -95,11 +93,14 @@ DFS
 
 环, 需要拆环, 分成两种情况, 有首无尾, 有尾无首
 
-#### 滑动窗口:
+### 滑动窗口:
 
 - [最大无重复子串](/solution/03.hard/03.longest-substring-without-repeating-characters.md)
+### 链表
 
-#### 动态规划
+哨兵节点, 用于抛弃
+
+### 动态规划
 
 递归 + 缓存, 更进一步地将递归改为迭代;
 
@@ -114,6 +115,11 @@ DFS
 - [22. 括号生成](/solution/02.medium/22.generate-parentheses.md)
 - [213. 打家劫舍2](/solution/02.medium/213.house-robber-2.md)
 
+
+### 栈
+
+单调栈
+- [43.接雨水](/solution/03.hard/42.trapping-rain-water.md)
 
 ---
 
