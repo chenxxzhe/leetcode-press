@@ -121,6 +121,12 @@ DFS
 单调栈
 - [43.接雨水](/solution/03.hard/42.trapping-rain-water.md)
 
+
+### 回溯
+
+[51.N 皇后](/solution/hard/51.n-queens.md)
+
+
 ---
 
 
