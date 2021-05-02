@@ -124,7 +124,9 @@ DFS
 
 ### 回溯
 
-[51.N 皇后](/solution/hard/51.n-queens.md)
+- [46.全排列](/solution/medium/46.permutations.md)
+- [47.全排列2](/solution/medium/47.permutations-ii.md)
+- [51.N 皇后](/solution/hard/51.n-queens.md)
 
 
 ---
