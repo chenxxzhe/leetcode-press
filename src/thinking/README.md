@@ -96,9 +96,6 @@ DFS
 ### 滑动窗口:
 
 - [最大无重复子串](/solution/03.hard/03.longest-substring-without-repeating-characters.md)
-### 链表
-
-哨兵节点, 用于抛弃
 
 ### 动态规划
 
@@ -116,6 +113,10 @@ DFS
 - [213. 打家劫舍2](/solution/02.medium/213.house-robber-2.md)
 
 
+### 矩阵
+
+将变换拆解为多个变换, 例如右旋 90° 可以拆解为 水平翻转 + 对角线翻转
+
 ### 栈
 
 单调栈
@@ -128,10 +129,6 @@ DFS
 - [47.全排列2](/solution/medium/47.permutations-ii.md)
 - [51.N 皇后](/solution/hard/51.n-queens.md)
 
-
----
-
-
 ### 链表
 
 无脑加哨兵节点(用于抛弃), 然后再考虑
@@ -140,3 +137,4 @@ DFS
 
 - [19. 删除链表的倒数第 N 个结点](/solution/02.medium/19.remove-nth-node-from-end-of-list.md)
 
+---
