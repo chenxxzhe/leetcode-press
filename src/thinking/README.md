@@ -134,7 +134,7 @@ dp 的一些哲学
 
 - [22. 括号生成](/solution/02.medium/22.generate-parentheses.md)
 - [213. 打家劫舍2](/solution/02.medium/213.house-robber-2.md)
-- [1473. 粉刷房子3](/solution/hard/1473.paint-house-iii.md)
+- [1473. 粉刷房子3](/solution/03.hard/1473.paint-house-iii.md)
 
 ### 矩阵
 
