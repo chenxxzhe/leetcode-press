@@ -11,9 +11,7 @@
 - O(n) 法, 总有办法遍历一次就可以,要有信念; 可以从头到尾; 也可以首尾向内, 或者双指针开始(例如滑动窗口)
 - 动态规划
 - 二分法(分治是更高维度的思路, 子组可以应用别的算法)
-  - 二分法适用于离散的,有具体范围的数组, 寻找符合条件的元素;
-  - 通过限定左右边界并不断中间切割直到找到元素.
-  - 二分法可以使用在其他方法中, 只要有具体范围就可以二分.
+
 
 ## 算法性能优化
 
@@ -41,9 +39,16 @@
 想办法**删减可能空间**
 
 存在多个影响因素时, 如果有些因素线性的,例如index, 可以在遍历该因素时, 对其他因素做局部线性处理(排序,比大小)
-- [盛最多水的容器](/solution/02.medium/11.container-with-most-water.md)
+- [盛最多水的容器](/solution/medium/11.container-with-most-water.html)
 
+## 二分
 
+- 二分法适用于离散的,有具体范围的数组, 寻找符合条件的元素;
+- 要排序过;
+- 通过限定左右边界并不断中间切割直到找到元素.
+- 二分法可以使用在其他方法中, 只要有具体范围就可以二分.
+
+- [简单搜索](/solution/medium/172.binary-search.html)
 
 ## 递归
 
@@ -53,7 +58,7 @@
 BFS
 将当前状态下,所有的下一步操作作为递归入口
 
-- [22. 括号生成](/solution/02.medium/22.generate-parentheses.md)
+- [22. 括号生成](/solution/medium/22.generate-parentheses.html)
 
 DFS
 
@@ -84,7 +89,7 @@ DFS
 
 先画图, 再编码, 遍历字符串要多遍历一位用于判断是否已读完全部: `i <= s.length`
 
-- [字符串转换整数](/solution/02.medium/08.string-to-integer-atoi.md)
+- [字符串转换整数](/solution/medium/08.string-to-integer-atoi.html)
 
 
 ---
@@ -101,7 +106,7 @@ DFS
 
 ### 滑动窗口:
 
-- [最大无重复子串](/solution/03.hard/03.longest-substring-without-repeating-characters.md)
+- [最大无重复子串](/solution/hard/03.longest-substring-without-repeating-characters.html)
 
 ### 动态规划
 
@@ -131,9 +136,9 @@ dp 的一些哲学
 状态压缩, 降维
 - 排列组合题, 可以将数组 `nums [n]` 的所有子集, 表示为 `subSetIds [0, 2^n]` 的数组, 其中每个数作为 ID 代表 `nums` 的某个子集
 
-- [22. 括号生成](/solution/02.medium/22.generate-parentheses.md)
-- [213. 打家劫舍2](/solution/02.medium/213.house-robber-2.md)
-- [1473. 粉刷房子3](/solution/03.hard/1473.paint-house-iii.md)
+- [22. 括号生成](/solution/medium/22.generate-parentheses.html)
+- [213. 打家劫舍2](/solution/medium/213.house-robber-2.html)
+- [1473. 粉刷房子3](/solution/hard/1473.paint-house-iii.html)
 
 ### 矩阵
 
@@ -142,14 +147,14 @@ dp 的一些哲学
 ### 栈
 
 单调栈
-- [43.接雨水](/solution/03.hard/42.trapping-rain-water.md)
+- [43.接雨水](/solution/hard/42.trapping-rain-water.html)
 
 
 ### 回溯
 
-- [46.全排列](/solution/medium/46.permutations.md)
-- [47.全排列2](/solution/medium/47.permutations-ii.md)
-- [51.N 皇后](/solution/hard/51.n-queens.md)
+- [46.全排列](/solution/medium/46.permutations.html)
+- [47.全排列2](/solution/medium/47.permutations-ii.html)
+- [51.N 皇后](/solution/hard/51.n-queens.html)
 
 ### 链表
 
@@ -157,7 +162,7 @@ dp 的一些哲学
 
 滑动窗口
 
-- [19. 删除链表的倒数第 N 个结点](/solution/02.medium/19.remove-nth-node-from-end-of-list.md)
+- [19. 删除链表的倒数第 N 个结点](/solution/medium/19.remove-nth-node-from-end-of-list.html)
 
 ---
 
