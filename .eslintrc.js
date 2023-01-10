@@ -1,10 +1,8 @@
 module.exports = {
   root: true,
-
-  parserOptions: {
-    parser: '@typescript-eslint/parser',
-    sourceType: 'module',
-  },
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
 
   env: {
     browser: true,
@@ -12,5 +10,4 @@ module.exports = {
     es6: true,
   },
 
-  extends: ['eslint:recommended'],
 };
