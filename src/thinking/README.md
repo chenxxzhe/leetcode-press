@@ -181,6 +181,8 @@ dp 的一些哲学
 单调栈
 - [43.接雨水](/solution/hard/42.trapping-rain-water.html)
 
+- 栈保存二元组 `(val, 入栈时的min)` 可以轻松实现 O(1) 获取 getMin(). 参看[155.最小栈](https://leetcode.cn/problems/min-stack/)
+
 
 --------
 
@@ -215,6 +217,9 @@ dp 的一些哲学
 遍历分为 递归, 迭代(栈) 两种
 
 二叉搜索树, 中序遍历就是升序
+
+相关题目
+- [105.从前序与中序遍历序列构造二叉树](/solution/medium/105.construct-binary-tree-from-preorder-and-inorder-traversal.html)
 
 ## hashMap
 
