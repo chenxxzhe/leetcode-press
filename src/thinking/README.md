@@ -184,8 +184,9 @@ dp 的一些哲学
 
 ## 栈
 
-单调栈
+单调栈: 数组内部遍历一次比较距离; 通常是出栈时计算
 - [43.接雨水](/solution/hard/42.trapping-rain-water.html)
+- [739.每日温度](/solution/medium/739.daily-temperatures.html)
 
 - 栈保存二元组 `(val, 入栈时的min)` 可以轻松实现 O(1) 获取 getMin(). 参看[155.最小栈](https://leetcode.cn/problems/min-stack/)
 
