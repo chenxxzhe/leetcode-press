@@ -52,12 +52,10 @@
 
 不一定要双方都有完整的数据才能开始比较, 可以仅仅比较局部数据, 如果不同就可以剪枝了
 
-### BFS
-将当前状态下,所有的下一步操作作为递归入口
+## BFS
+维护一个任务队列, `while(tasks.length) {const task = tasks.pop()}`, 每次添加当前层所有分支
 
 - [22. 括号生成](/solution/medium/22.generate-parentheses.html)
-
-### DFS
 
 ## 二分
 
@@ -82,6 +80,8 @@
 
 
 ## 回溯
+
+回溯 = DFS + hash去重 + 剪枝(不可能空间)
 
 - [46.全排列](/solution/medium/46.permutations.html)
 - [47.全排列2](/solution/medium/47.permutations-ii.html)
@@ -235,6 +235,11 @@ dp 的一些哲学
 底层实现: hash 函数 => 碰撞处理(拉链法, 开放寻址)
 
 ## 图
+
+### 邻接表
+- 相关题目: [课程表][https://leetcode.cn/problems/course-schedule/comments/]
+- 结构 `[[1,2,3], [4]]` 表示 i0 可以出发到i1,i2,i3; i1 可以出发到 i4; 可以扩充为`邻接矩阵`.
+- 判断图是否存在环, 可以遍历一遍数组, 将入度为0的节点加入任务队列, 每次弹出一个将子节点入度-1, 如果为0就将子节点入队; 统计遍历次数是否等于节点总数; 有环的话不会遍历全部节点
 
 
 ----
